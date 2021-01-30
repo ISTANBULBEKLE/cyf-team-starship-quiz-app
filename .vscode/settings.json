@@ -8,5 +8,23 @@
     "**/.git/objects/**": true,
     "**/.git/subtree-cache/**": true,
     "**/node_modules/*/**": true
-  }
+  },
+  "cSpell.words": [
+    "mentorlogin",
+    "mentorpage",
+    "mentorquizlist",
+    "mentorresults",
+    "quizanalytics",
+    "quizanalyticsresults",
+    "quizedit",
+    "quizname",
+    "quizpage",
+    "quizsummary",
+    "studentlogin",
+    "studentpage",
+    "studentquiz",
+    "studentresults",
+    "studentscoresubmit",
+    "studentwelcome"
+  ]
 }
