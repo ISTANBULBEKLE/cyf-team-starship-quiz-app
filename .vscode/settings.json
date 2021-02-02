@@ -10,21 +10,29 @@
     "**/node_modules/*/**": true
   },
   "cSpell.words": [
+    "Roboto",
+    "buttontext",
+    "describedby",
+    "filterresults",
     "mentorlogin",
     "mentorpage",
     "mentorquizlist",
     "mentorresults",
+    "postgres",
     "quizanalytics",
     "quizanalyticsresults",
     "quizedit",
+    "quizlist",
     "quizname",
     "quizpage",
     "quizsummary",
+    "sslmode",
     "studentlogin",
     "studentpage",
     "studentquiz",
     "studentresults",
     "studentscoresubmit",
-    "studentwelcome"
+    "studentwelcome",
+    "xscgoxtudvwele"
   ]
 }

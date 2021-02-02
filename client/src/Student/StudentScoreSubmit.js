@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React, { useState } from "react";
 import Button from "../GeneralPages/Button";
 import { Link } from "react-router-dom";
@@ -15,9 +16,9 @@ const StudentScoreSubmit = (props) => {
 			.then((data) => data.json())
 			.then((jsonData) => setStudentResult([jsonData[0].score, jsonData[0].quiz_length]))
 			.catch((e) => console.log(e));
-		}
+	}
 
-	getScore();	
+	getScore();
 
 	return (
 		<div>

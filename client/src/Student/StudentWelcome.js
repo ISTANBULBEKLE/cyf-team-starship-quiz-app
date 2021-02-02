@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React, { useState, useEffect } from "react";
 import Button from "../GeneralPages/Button";
 import { Link } from "react-router-dom";

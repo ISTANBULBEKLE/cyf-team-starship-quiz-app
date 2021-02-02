@@ -47,7 +47,7 @@ const StudentStyle = createGlobalStyle`
 	.student-link {
 		margin: auto;
 		margin-top: 16px;
-		margin-botton: 16px;
+		margin-bottom: 16px;
 		width: 90%;
 		max-width: 450px;
 	}

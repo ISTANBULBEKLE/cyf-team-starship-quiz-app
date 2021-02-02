@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/label-has-for */
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import MentorStyle from "./MentorStyle";
@@ -11,7 +12,7 @@ const MentorLogin = () => {
 		setMentorEmail(e.target.value);
 	}
 
-	function handleSubmit (e) {
+	function handleSubmit () {
 		fetch("https://cyf-team-starship-quiz-app.herokuapp.com/api/mentors", {
 			method: "POST",
 			body: JSON.stringify({
