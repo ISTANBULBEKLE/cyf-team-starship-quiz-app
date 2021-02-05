@@ -32,7 +32,12 @@ const MentorLogin = () => {
 				<form className="mentor-login-form mx-auto input-group-lg">
 					<div className="mentor-login-input">
 						<label htmlFor="mentorEmail">Enter Your Email:</label>
-						<input type="email" className="mentor-login-email form-control " name="mentorEmail"  value={mentorEmail} onChange={handleChange} required />
+						<input
+							type="email"
+							className="mentor-login-email form-control "
+							name="mentorEmail"
+							value={mentorEmail}
+							onChange={handleChange} required />
 					</div>
 					<div className="submit-button">
 						{mentorEmail && (
@@ -40,7 +45,11 @@ const MentorLogin = () => {
 								pathname: "/mentorpage",
 								state: { mentorEmail },
 							}}>
-						   		<input className="btn-primary mentor-submit-button btn-lg" type="submit" value="Login" onClick={handleSubmit} />
+						   		<input
+								   className="btn-primary mentor-submit-button btn-lg"
+								   type="submit"
+								   value="Login"
+								   onClick={handleSubmit} />
 							</Link>
 						)}
 					</div>
